@@ -28,13 +28,13 @@
     //если массив пустой, дерево или ветка не существует
     if([treeArray count] == 0){
         return nil;
-    }else if(treeArray.firstObject == [NSNull null]){
+    }else if(treeArray[0] == [NSNull null]){
         //если в массиве элемент равен null, то ветка не существует
         [treeArray removeObjectAtIndex:0];
         return nil;
     }else{
         //если все хорошо инициализируем дерево\ветку с корнем root
-        Tree *root = [[Tree alloc] initWithValue:treeArray.firstObject];
+        Tree *root = [[Tree alloc] initWithValue:treeArray[0]];
         root.level += level; //увеличиваем уровень на передаваемый (передается уровень + 1)
         //удаляем элемент из массива, т.к. мы его использовали
         [treeArray removeObjectAtIndex:0];
