@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CA3D733265A67370005452E /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3D732265A67370005452E /* Tree.m */; };
 		7AF396612656A588003A569D /* LevelOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF396602656A588003A569D /* LevelOrderTests.m */; };
 		820FABB2265679FC008CFD09 /* DateTasks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 820FABB1265679FC008CFD09 /* DateTasks.pdf */; };
 		820FABBD26567D60008CFD09 /* NSDate+CustomDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820FABBC26567D60008CFD09 /* NSDate+CustomDate.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CA3D731265A67370005452E /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		3CA3D732265A67370005452E /* Tree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		7AF396602656A588003A569D /* LevelOrderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelOrderTests.m; sourceTree = "<group>"; };
 		820FABB1265679FC008CFD09 /* DateTasks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DateTasks.pdf; sourceTree = "<group>"; };
 		820FABBB26567D60008CFD09 /* NSDate+CustomDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CustomDate.h"; sourceTree = "<group>"; };
@@ -85,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CA3D72D265A670B0005452E /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				3CA3D731265A67370005452E /* Tree.h */,
+				3CA3D732265A67370005452E /* Tree.m */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
 		820FABC026567EFA008CFD09 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 		8275DDD2264C16A100838828 /* Exercise-4 */ = {
 			isa = PBXGroup;
 			children = (
+				3CA3D72D265A670B0005452E /* Tree */,
 				82ADF96426558D6400D81DB7 /* LevelOrderTraversal.md */,
 				82ADF96526558D6400D81DB7 /* LevelOrderTraversal.h */,
 				82ADF95F26558D6400D81DB7 /* LevelOrderTraversal.m */,
@@ -294,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82ADF96F26558D6A00D81DB7 /* LexicographicallyMinimal.m in Sources */,
+				3CA3D733265A67370005452E /* Tree.m in Sources */,
 				8293ECA826346C7100CEE768 /* AppDelegate.m in Sources */,
 				8293ECB926346C7500CEE768 /* main.m in Sources */,
 				82ADF96626558D6400D81DB7 /* LevelOrderTraversal.m in Sources */,
@@ -443,13 +457,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8VCS3U2KK;
 				INFOPLIST_FILE = "ios.stage-task/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rs.school.ios-stage-task";
+				PRODUCT_BUNDLE_IDENTIFIER = "VyakulinSA.ios-stage-task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,13 +476,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8VCS3U2KK;
 				INFOPLIST_FILE = "ios.stage-task/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rs.school.ios-stage-task";
+				PRODUCT_BUNDLE_IDENTIFIER = "VyakulinSA.ios-stage-task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -478,6 +494,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8VCS3U2KK;
 				INFOPLIST_FILE = "ios.stage-taskTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,6 +514,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8VCS3U2KK;
 				INFOPLIST_FILE = "ios.stage-taskTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (

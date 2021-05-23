@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[LexicographicallyMinimal findLexicographicallyMinimalForString1:andString2:]:LexicographicallyMinimal.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[myString1 substringToIndex:1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
